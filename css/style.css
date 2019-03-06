@@ -1,0 +1,40 @@
+body {
+	margin:  0;
+	font-family:  sans-serif;
+}
+
+.weekly-item {
+	display:  flex;
+	align-items: center;
+	border-bottom:  1px solid #eee;
+	padding:  5px 0;
+}
+.weekly-item .rank, .percent {
+	color:  #4a90e2;
+	font-size:  20px;
+	padding-left: 10px;
+}
+
+.weekly-item .img img {
+	width:  50px;
+	height:  50px;
+	margin-left: 10px;
+	border-radius: 3px;
+}
+.weekly-item .info {
+	font-size:  14px;
+	padding-left:  10px;
+	flex-grow:  1;
+}
+.weekly-item .info .song-title{
+	font-weight: bold;
+	margin-bottom:  10px;
+}
+.weekly-item .info .singer{
+	color:  #999;
+	font-size:  13px;
+}
+.weekly-item .percent{
+	font-weight: 200;
+	font-size:  14px;
+}

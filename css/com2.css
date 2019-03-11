@@ -4,7 +4,12 @@
 }
 .top100:hover .overlay{
 	opacity: 1;
-	transition: all 0.15s ease;
+	transform: scale(1.02);
+	transition: all 0.2s ease;
+}
+.top100:hover .image{
+	transform: scale(1.02);
+	transition: all 0.2s ;
 }
 
 .top100-cover{
@@ -13,25 +18,39 @@
 	padding-top: 100%;
 }
 
-.top100-cover .image, .top100-cover .overlay{
+.top100-cover .image, .top100-cover .overlay, .top100-cover .play-actions
+{
 	position: absolute;
 	left: 0;
 	right: 0;
 	top: 0;
 	bottom: 0;
-	display: flex;
+	/* display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center; */
 }
 .top100-cover .image {
 	background-image: url('https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/2/9/e/8/29e8461f9e2d961ece06a5a63914acf0.jpg');
 
 }
+
 .top100-cover .overlay{
 	background-color: rgba(0, 0, 0, .2);
 	z-index: 2;
 	opacity: 0;
 }
+.top100-cover .play-actions{
+	z-index: 3;
+	/* text-align: center; */
+	display: flex;
+	justify-content: center;
+	align-items: ;
+}
+/* .top100-cover .overlay i.play{
+	z-index: 3;
+	opacity: 1;
+} */
+
 .top100 .title{
 	text-align: center;
 	text-transform: capitalize;

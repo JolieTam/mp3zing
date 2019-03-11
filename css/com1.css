@@ -1,0 +1,78 @@
+.zingchart-weekly {
+	display:  flex;
+	background-color: #342A55;
+	justify-items: center;
+	align-items: center;
+	position: relative;
+}
+.zingchart-weekly .overlay {
+	height: 100%;
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+}
+.zingchart-weekly:hover .overlay{
+	opacity: 1;
+	background-color: rgba(255,255,255,.15);
+	cursor: pointer;
+	transition: all 0.15s ease;
+}
+.zingchart-weekly:hover i.play{
+	opacity: 1;
+	transition: all 0.15s ease;
+}
+.zingchart-weekly:hover .image{
+	transition: all 0.5s ease;
+	box-sizing: border-box;
+	transform: scale(1.04);
+}
+.zingchart-weekly .rank {
+	color:  #4a90e2;
+	font-size:  20px;
+	margin:  0 10px 0 10px;
+}
+.zingchart-weekly .image{
+	margin: 0 10px 0 0;
+	background-image: url('https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/avatars/5/a/5/a/5a5a51ec2a1fdd0acb905ed8288f05b5.jpg');
+	background-size: contain;
+	width:  50px;
+	height: 50px;
+	border-radius: 3px;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.zingchart-weekly .image .icon {
+	width: 60%;
+	height: 60%;
+	opacity: 0;
+	cursor: pointer;
+}
+/* .zingchart-weekly .image img{
+	width:  50px;
+	height:  50px;
+	border-radius: 3px;
+} */
+.zingchart-weekly .info {
+	flex-grow: 1;
+}
+.zingchart-weekly .info .song-title {
+	color:  #f0f0f0;
+	font-size:  13px;
+	font-weight:  400;
+}
+.zingchart-weekly .info .singer{
+	color:  #a0a0a0;
+	font-size:  12px;
+	font-weight:  200;	
+}
+.zingchart-weekly .percent {
+	font-size:  14px;
+	color:  #4a90e2;
+	padding:  0 10px 0 0;
+}

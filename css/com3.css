@@ -1,0 +1,16 @@
+/* Bài hat  */
+.new-song{
+	display: flex;
+	padding: 5px 10px;
+}
+.new-song .image{
+	
+}
+.new-song .info{
+	flex-grow: 0;
+}
+.new-song .info .song-title{
+	font-weight: 500;
+	text-transform: capitalize;
+	font-size: 14px;
+}

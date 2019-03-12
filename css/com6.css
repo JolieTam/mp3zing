@@ -1,0 +1,64 @@
+/* album hot */
+
+.song-title {
+	font-weight: 500;
+	font-size: 16px;
+	margin-top: 5px;
+	text-transform: capitalize;
+	color: #fcfcfc;
+	cursor: pointer;
+}
+.singer{
+	color: #a0a0a0;
+	opacity: .7;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.album-hot {
+	width: 210px;
+	/* height: 118px; */
+	overflow: hidden;
+/* 	position: relative;
+ */}
+.album-hot .child{
+	background-image: url('https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/b/7/e/7/b7e7197f1e5c94bacce9542238d52108.jpg');
+	width: 100%;
+	padding-top: 100%;
+	background-size: cover;
+	transition: all .5s ease;
+	position: relative;
+
+}
+.album-hot:hover .child, .album-hot:focus .child{
+	transform: scale(1.05);
+	transition: all .5s ease;
+}
+.album-hot .info{
+	/* position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1; */
+	/* padding: 15px 10px 5px; */
+}
+.album-hot .overlay{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	top: 0;
+	right: 0;
+	/* background-color: rgba(9,7,13,.2); */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.album-hot .overlay i.play{
+	visibility: hidden;
+}
+.album-hot:hover .overlay i.play{
+	visibility: visible;
+}
+.album-hot:hover .overlay {
+	background-color: rgba(9,7,13,.5);
+}
+

@@ -1,10 +1,10 @@
 /* Bài hat  */
-.new-song{
+/* .new-song{
 	display: flex;
 	padding: 5px 10px;
 }
 .new-song .image{
-	
+
 }
 .new-song .info{
 	flex-grow: 0;
@@ -13,4 +13,85 @@
 	font-weight: 500;
 	text-transform: capitalize;
 	font-size: 14px;
+} */
+.new-song {
+	display:  flex;
+	padding: 5px 10px;
+	margin-bottom: 5px;
+	background-color: #fcfcfc;
+	justify-items: center;
+	align-items: center;
+	/* position: relative; */
+}
+
+.new-song:hover i.play{
+	opacity: 1;
+}
+.new-song .image{
+	margin: 0 10px 0 0;
+	background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/cover/0/6/2/b/062bef474dca67fc1829938b1e3cef2a.jpg');
+	background-size: contain;
+	width:  40px;
+	height: 40px;
+	border-radius: 3px;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+	position: relative;
+}
+.new-song .image .overlay {
+	height: 100%;
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+}
+.new-song:hover .image .overlay{
+	opacity: 1;
+	background-color: rgba(9,7,13,.5);
+	cursor: pointer;
+	transition: all 0.15s ease;
+}
+.new-song .image .icon {
+	width: 60%;
+	height: 60%;
+	opacity: 0;
+	cursor: pointer;
+}
+.new-song .info {
+	flex-grow: 1;
+}
+.new-song .info .song-title {
+	color:  #f0f0f0;
+	font-weight: 700;
+	text-transform: capitalize;
+	font-size: 14px;
+}
+.new-song .info .singer{
+	color:  #a0a0a0;
+	font-size:  12px;
+	font-weight:  400;
+	margin-top: 5px;	
+}
+.new-song .more-option {
+	font-size:  18px;
+	color:  #2a2b3f;
+	cursor: pointer;
+	opacity: 0;
+
+}
+
+.new-song i.icon {
+	padding: 10px;
+}
+.new-song:hover .more-option{
+	opacity:  1;
+}
+.new-song:hover {
+	background-color: #efefef;
 }

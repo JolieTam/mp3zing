@@ -3,7 +3,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	grid-column: 1/5;
+	
 }
 .title-bar .title a{
 	font-size: 24px;
@@ -18,4 +18,10 @@
 .title-bar .title a i {
 	font-weight: 200;
 	font-size: 16px;
+}
+.title-bar .title a._16px{
+	font-size: 16px;
+}
+.title-bar .title i._12px {
+	font-size: 12px;
 }

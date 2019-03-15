@@ -25,6 +25,10 @@
 	right: 0;
 	top: 0;
 	bottom: 0;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-position: center;
 	/* display: flex;
 	justify-content: center;
 	align-items: center; */
@@ -41,7 +45,18 @@
 .top100-cover .image4 {
 	background-image: url('https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/e/e/f/5/eef5371babdb5bb118106d2894a9193b.jpg');
 }
-
+.top100-cover .image5 {
+	background-image: url('https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/4/9/e/c/49ecd5d790d3cd61c76c52e0043210a5.jpg');
+}
+.top100-cover .image6 {
+	background-image: url('https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/7/9/c/2/79c21ec44964eb3a4775208f897f46ee.jpg');
+}
+.top100-cover .image7 {
+	background-image: url('https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/d/8/9/a/d89a43bb694a7fde1e3f632cf0866b4c.jpg');
+}
+.top100-cover .image8 {
+	background-image: url('https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/4/e/b/7/4eb7287420990f5f0ec0ac93749068b6.jpg');
+}
 .top100-cover .overlay{
 	background-color: rgba(0, 0, 0, .2);
 	z-index: 2;
@@ -61,7 +76,7 @@
 } */
 
 .top100 .title{
-	text-align: ;
+	text-align: left;
 	text-transform: capitalize;
 	font-weight: 500;
 	font-size: 16px;

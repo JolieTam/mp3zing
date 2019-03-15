@@ -5,7 +5,9 @@
 	cursor: pointer;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-evenly;
+	margin-bottom: 30px;
+
 }
 .slogan{
 	display: flex;

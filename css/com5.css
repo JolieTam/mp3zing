@@ -22,7 +22,7 @@
 	position: relative;
 }
 .video-hot .child{
-	background-image: url('https://photo-resize-zmp3.zadn.vn/w600h338_jpeg/thumb_video/0/9/8/c/098cf808a682d7685c0cd4a3a44f028a.jpg');
+	/* background-image: url('https://photo-resize-zmp3.zadn.vn/w600h338_jpeg/thumb_video/0/9/8/c/098cf808a682d7685c0cd4a3a44f028a.jpg'); */
 	width: 100%;
 	height: 100%;
 	background-size: cover;
@@ -63,3 +63,18 @@
 	visibility: hidden;
 }
 
+.video-hot .child.image1{
+	background-image: url('https://photo-resize-zmp3.zadn.vn/w600h338_jpeg/thumb_video/0/9/8/c/098cf808a682d7685c0cd4a3a44f028a.jpg');
+}
+.video-hot .child.image2{
+	background-image: url('https://photo-resize-zmp3.zadn.vn/w600h338_jpeg/thumb_video/9/6/c/f/96cfca01bf668b5aa8f5392197c9fa1c.jpg');
+}
+.video-hot .child.image3{
+	background-image: url('https://photo-resize-zmp3.zadn.vn/w600h338_jpeg/thumb_video/9/c/7/f/9c7fd8380af9c5c17c6b4ea3816e9e85.jpg');
+}
+.video-hot .child.image4{
+	background-image: url('https://photo-resize-zmp3.zadn.vn/w600h338_jpeg/thumb_video/9/5/8/7/9587d37a26dca30e548b97d1e99e553a.jpg');
+}
+.video-hot .child.image5{
+	background-image: url('https://photo-resize-zmp3.zadn.vn/w600h338_jpeg/thumb_video/3/4/b/c/34bc4698c19f4de46fba35a993d9d0e7.jpg');
+}

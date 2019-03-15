@@ -3,6 +3,7 @@
 	width: 210px;
 	height: 118px;
 	overflow: hidden;
+	cursor: pointer;
 }
 .zingchart-region .image{
 	transition: all .5s ease;

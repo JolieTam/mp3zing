@@ -29,9 +29,17 @@
 	justify-content: center;
 	align-items: center; */
 }
-.top100-cover .image {
+.top100-cover .image1 {
 	background-image: url('https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/2/9/e/8/29e8461f9e2d961ece06a5a63914acf0.jpg');
-
+}
+.top100-cover .image2 {
+	background-image: url('https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/3/7/4/3/374334348907f5b1bd5b72200b79369f.jpg');
+}
+.top100-cover .image3 {
+	background-image: url('https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/1/0/f/c/10fc37c128dbc5e3987fe6617744fb88.jpg');
+}
+.top100-cover .image4 {
+	background-image: url('https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/e/e/f/5/eef5371babdb5bb118106d2894a9193b.jpg');
 }
 
 .top100-cover .overlay{
@@ -45,6 +53,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: ;
 }
 /* .top100-cover .overlay i.play{
 	z-index: 3;
@@ -52,7 +61,7 @@
 } */
 
 .top100 .title{
-	text-align: center;
+	text-align: ;
 	text-transform: capitalize;
 	font-weight: 500;
 	font-size: 16px;

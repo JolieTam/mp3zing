@@ -11,8 +11,13 @@
 .wrapper .header{
 	/* grid-column: 1/4; */
 }
-.wrapper .main {
+.wrapper .main{
+	background-color: #FBFCFD;
+}
+.wrapper .main section{
 	display: grid;
 	grid-template-columns: repeat(4,1fr);
 	grid-gap: 15px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 20px;
 }

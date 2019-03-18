@@ -8,9 +8,27 @@
 	display: grid;
 	grid-row-gap: 20px;
 }
-.wrapper .header{
-	width: 1024px;
+.wrapper .header.sticky{
+	width: 100%;
+	background-color: #f7f7f7;
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	text-align: center;
 	margin: 0 auto;
+	margin-left: -30px;
+	height: 60px;
+}
+.wrapper .header{
+	width: 100%;
+	background-color: #f7f7f7;
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	text-align: center;
+	margin: 0 auto;
+	margin-left: -30px;
+	height: 60px;
 }
 .wrapper .main,
 .wrapper .footer{

@@ -1,9 +1,13 @@
 /* header bar */
+
 .header-bar{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	cursor: pointer;
+	
+	max-width: 1024px;
+	margin: 0 auto;
 }
 .header-bar .logo{
 	background-image: url('https://zmp3-static.zadn.vn/skins/zmp3-v5.2/images/logo-mp-3.svg');
